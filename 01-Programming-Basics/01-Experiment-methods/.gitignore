@@ -1,5 +1,3 @@
-lib/__prycache__
-lib/__prycache__*
-spec/__prycache__
-spec/__prycache__*
+lib/_*
+spec/_*
 lib/*_solution.py
