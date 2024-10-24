@@ -1,0 +1,7 @@
+# Exclude py cache #
+####################
+
+spec/__pycache__
+spec/__pycache__/*
+lib/__pycache__
+lib/__pycache__/*
