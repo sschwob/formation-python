@@ -1,5 +1,5 @@
-./lib/__prycache__
-./lib/__prycache__*
-./spec/__prycache__
-./spec/__prycache__*
-./lib/experiment_solution.py
+lib/__prycache__
+lib/__prycache__*
+spec/__prycache__
+spec/__prycache__*
+lib/*_solution.py
