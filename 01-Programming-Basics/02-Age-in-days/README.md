@@ -19,8 +19,6 @@ python lib/interface.py
 
 Le programme indique que tu as `0 years old`. Tu dois modifier le code de façon à ce que le programme utilise ta méthode `age_in_days`. Remarque : le code est disponible dans le fichier `interface.py`, car on a écrit la commande `import` au début du fichier.
 
-- **Perfectionnement** : Des lignes de code se répètent-elles dans le fichier `interface.py` ? Peux-tu refactoriser ces lignes pour rendre ton code DRY (Don’t Repeat Yourself = Ne te répète pas) ?
-
 ## Suggestions et ressources complémentaires
 
 - Tu peux choisir d’utiliser la [classe Date](https://docs.python.org/fr/3.6/library/datetime.html), que l’on charge dans notre fichier en utilisant la ligne `import "date"`
