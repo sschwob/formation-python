@@ -47,9 +47,9 @@ print(f"two: {1 + 1}") #=> two: 2
 
 **Convertion en integer**
 ```python
-type('2024')      #=> <class 'str'> / String
-int('2024)        #=> 2024
-type(int('2024')) #=> <class 'int'> / Integer
+type('2024')       #=> <class 'str'> / String
+int('2024')        #=> 2024
+type(int('2024'))  #=> <class 'int'> / Integer
 ```
 
 ## Interger
