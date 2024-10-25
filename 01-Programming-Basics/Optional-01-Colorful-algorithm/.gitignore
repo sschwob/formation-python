@@ -1,0 +1,3 @@
+lib/_*
+test/_*
+lib/*_solution.py
