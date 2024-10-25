@@ -1,2 +1,2 @@
 test: 
-	python3 -m unittest discover -v -s spec -p '*_test.py'
+	python3 -m unittest discover -v -s test -p '*_test.py'
