@@ -23,7 +23,7 @@ Ton programme devrait ensuite te demander d'entrer ton prénom, deuxième préno
 En supposant que tu as saisi "Jean", puis "Baptiste" et enfin "Poquelin", le programme doit imprimer un message personnalisé ressemblant à `Hello, Jean Baptiste Poquelin!`.
 
 - **contrainte** : ton programme `interface.py` doit bien entendu utiliser la méthode `compute_name` définie dans l’autre fichier.
-- **perfectionnement** : tu peux améliorer ton `custom_message` en ajoutant d’autres informations comme le nombre de caractères du nom complet (exemple : `Jean Baptiste Poquelin has got 27 characters, including spaces`), ou d’autres détails très importants…
+- **perfectionnement** : tu peux améliorer ton `custom_message` en ajoutant d’autres informations comme le nombre de caractères du nom complet (exemple : `Jean Baptiste Poquelin has got 22 characters, including spaces`), ou d’autres détails très importants…
 
 ## Enseignements clés
 
