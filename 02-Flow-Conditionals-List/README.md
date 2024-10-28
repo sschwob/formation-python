@@ -123,7 +123,31 @@ print(f"Gagné ! Le prix était {price_to_find}$")
 
 ```python
 for num in [1, 2, 3]:
-  print(num)
+  print(num)    #=> 1 2 3
+
+for i in range(5):
+  print(i)      #=> 0 1 2 3 4
+```
+
+### Break & Continue
+
+> `break` permet de 'casser' une boucle et d'en sortir
+
+```python
+for i in range(10):
+  print("valeur de i:", i)
+  if i == 4: break
+```
+
+> `continue` permet de passer le reste du code de la boucle et revenir au début de celle-ci
+
+```python
+i = 0
+while i < 10:
+  print("valeur de i:", i)
+  if i == 4: continue
+  i += 1
+# Boucle infinie car à partir de i = 4, la ligne `i += 1` n'est plus exécutée à cause du `continue`
 ```
 
 ## Listes
@@ -181,13 +205,25 @@ print(beatles) #=> ['john', 'ringo']
 ```
 
 ### Longueur de la liste
+
 ```python
 beatles = ["john", "ringo", "seb"]
 len(beatles)  #=> 3
 ```
 
 ### Parcourir la liste
+
 ```python
 for beatle in beatles:
   print(f"{beatle} est dans les Beatles")
 ```
+
+### Tier une liste
+
+```python
+beatles = ["john", "ringo", "paul", "george"]
+beatles.sort()
+print(beatles) #=> ['george', 'john', 'paul', 'ringo']
+```
+
+> Il existe d'autres méthodes comme `reverse`, `count`, `insert`, `copy`, `pop`, `extend`, `clear`, ...
