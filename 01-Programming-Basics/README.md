@@ -38,11 +38,16 @@ type(False)                     #=> bool / Boolean
 **Concaténation**
 ```python
 print('Hello' + ' ' + 'World!') #=> Hello World!
+
+num_compte = 123
+client = 'Bob'
+print('numéro:', num_compte, 'appartient à', client)
 ```
 
-**f-string**
+**Interpolation / f-string**
 ```python
 print(f"two: {1 + 1}") #=> two: 2
+print('numero: {0} appartient à {1}'.format(123, 'Bob'))
 ```
 
 **Convertion en integer**

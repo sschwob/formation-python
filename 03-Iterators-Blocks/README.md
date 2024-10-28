@@ -1,0 +1,1 @@
+[fonction map()](https://courspython.com/map.html)
