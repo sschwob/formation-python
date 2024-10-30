@@ -13,17 +13,17 @@ class TestInterface(unittest.TestCase):
     stdout, _ = process.communicate("\n".join(inputs) + "\n")
     return stdout
 
-  def test_three_students(self):
+  def test_01_three_students(self):
     result = self.run_interface(["Alice", "charlie", "Bob", ""])
     self.assertRegex(result, r"3 students")
     self.assertRegex(result, r"Alice, Bob and charlie")
 
-  def test_four_students(self):
+  def test_02_four_students(self):
     result = self.run_interface(["Alice", "charlie", "daniel", "Bob", ""])
     self.assertRegex(result, r"4 students")
     self.assertRegex(result, r"Alice, Bob, charlie and daniel")
 
-  def test_one_student(self):
+  def test_03_one_student(self):
     result = self.run_interface(["Alice", ""])
     self.assertRegex(result, r"1 student")
     self.assertRegex(result, r"Alice")

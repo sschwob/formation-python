@@ -7,12 +7,12 @@ ips = {
 }
 
 class TestIPFunctions(unittest.TestCase):
-    def test_ip_to_num(self):
+    def test_01_ip_to_num(self):
       for ip_address, number in ips.items():
         with self.subTest(ip_address = ip_address, number = number):
           self.assertEqual(ip_to_num(ip_address), number)
     
-    def test_num_to_ip(self):
+    def test_02_num_to_ip(self):
       for ip_address, number in ips.items():
         with self.subTest(ip_address = ip_address, number = number):
           self.assertEqual(num_to_ip(number), ip_address)
